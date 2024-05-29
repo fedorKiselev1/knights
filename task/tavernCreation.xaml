@@ -1,0 +1,42 @@
+﻿<Window x:Class="task.tavernCreation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task"
+        mc:Ignorable="d"
+        Title="tavernCreation" Height="570" Width="282">
+    <Grid Margin="0,0,0,-6">
+        <Label VerticalContentAlignment="Center" Content="name" HorizontalAlignment="Left" Height="32" Margin="13,50,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox Name="name" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Button Click="submitTavernCreation" Content="submit" HorizontalAlignment="Left" Height="36" Margin="13,482,0,0" VerticalAlignment="Top" Width="246"/>
+        <Label VerticalContentAlignment="Center" Content="seats" HorizontalAlignment="Left" Height="32" Margin="13,86,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="seats" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="guests" HorizontalAlignment="Left" Height="32" Margin="13,122,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="guests" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="beds" HorizontalAlignment="Left" Height="32" Margin="13,158,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="beds" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="stars" HorizontalAlignment="Left" Height="32" Margin="13,194,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="stars" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="bandits" HorizontalAlignment="Left" Height="32" Margin="13,230,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="bandits" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="year" HorizontalAlignment="Left" Height="32" Margin="13,266,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="year" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,266,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="adress" HorizontalAlignment="Left" Height="32" Margin="13,302,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="adress" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,302,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="phone" HorizontalAlignment="Left" Height="32" Margin="13,338,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="phone" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,338,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="money" HorizontalAlignment="Left" Height="32" Margin="13,374,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="money" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,374,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="work" HorizontalAlignment="Left" Height="32" Margin="13,410,0,0" VerticalAlignment="Top" Width="51"/>
+        <TextBox x:Name="work" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="32" Margin="69,410,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190"/>
+        <Label VerticalContentAlignment="Center" Content="type" HorizontalAlignment="Left" Height="32" Margin="13,446,0,0" VerticalAlignment="Top" Width="51"/>
+        <ComboBox x:Name="type" HorizontalAlignment="Left" Margin="69,446,0,0" VerticalAlignment="Top" Width="190" Height="32">
+            <TextBlock>slick</TextBlock>
+            <TextBlock>lame</TextBlock>
+            <TextBlock>mysterious</TextBlock>
+        </ComboBox>
+        <Label x:Name="ctavernerror" Content="" HorizontalAlignment="Left" Height="35" Margin="13,10,0,0" VerticalAlignment="Top" Width="246"/>
+
+    </Grid>
+</Window>
